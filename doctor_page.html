@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Doctor_page</title>
+    <!-- for icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Navbar Start -->
+    <link rel="stylesheet" href="doctor_page_css/navbar.css">
+    <!-- Navbar End -->
+    <!-- Landing Page Start -->
+    <link rel="stylesheet" href="doctor_page_css/dr_landing.css">
+    <!-- Landing Page End -->
+    <!-- Doctor information Start -->
+    <link rel="stylesheet" href="doctor_page_css/dr_info.css">
+    <link rel="stylesheet" href="doctor_page_css/dr_landing.css">
+    <!-- Doctor information End -->
+
+    <!-- Footer Start -->
+    <link rel="stylesheet" href="doctor_page_css/footer.css">
+    <!-- Footer End -->
+    <!-- Quick Navbar Arrow Start -->
+    <link rel="stylesheet" href="doctor_page_css/quick_navbar_arrow.css">
+    <!-- Quick Navbar Arrow End -->
+    <!-- Copyright Start -->
+    <link rel="stylesheet" href="doctor_page_css/copyright.css">
+    <!-- Copyright End -->
+</head>
+
+<body>
+    <!-- ======================Navigation Menu Start====================== -->
+    <div id="for_quick_arrow"></div>
+    <section class="navbar">
+        <label class="logo">Wel<span style="color: #000;">Care</span></label>
+        <ul>
+            <li><a href="home_page.html">Home</a></li>
+            <li><a class="active" href="#">Doctors</a></li>
+            <li>
+                <a href="blog_page.html">Blogs
+                    <i class="fas fa-caret-down"></i>
+                </a>
+                <ul>
+                    <li><a href="blog_page.html">Daily Blogs</a></li>
+                    <li><a href="blog_page.html">Techno. Blog</a></li>
+                    <li><a href="blog_page.html">Achievement</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="Services_page.html">Services
+                    <i class="fas fa-caret-down"></i>
+                </a>
+                <ul>
+                    <li><a href="Services_page.html">ICU</a></li>
+                    <li>
+                        <a href="#">Emergency
+                            <i class="fas fa-caret-right"></i>
+                        </a>
+                        <ul>
+                            <li><a href="Services_page.html">Ambulance</a></li>
+                            <li><a href="Services_page.html">Blood</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="Forms/contact_us_form.html">Contact Us</a></li>
+            <!-- <li><a href="#">Feedback</a></li> -->
+        </ul>
+        <div>
+            <a href="Forms/appointment_form.html" class="button">Appointment</a>
+        </div>
+    </section>
+    <!-- ======================Navigation Menu End====================== -->
+    <!-- ======================Landing Page Start====================== -->
+    <div id="dr_landing">
+        <div class="dr_wel">
+            <h2>Meet our qualified Doctors</h2>
+            <ul>
+                <li id="dr_home"><a href="home_page.html">Home</a></li>
+                <li><i class="fas fa-angle-right"></i></li>
+                <li><a>Doctors</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- ======================Landing Page End====================== -->
+    <!-- ======================Doctor info. Start====================== -->
+    <div id="dr_info">
+        <div class="dr_shortcut">
+            <h1>Which type of <span style="color: #007bff;">doctor</span> you need...</h1>
+        </div>
+        <!-- doctor box-1 Start -->
+        <div class="dr_shortcutBx dr_sBx1">
+
+            <div class="dr_sBx" id="Bx1">
+                <div class="dr_S_imgBx">
+                    <img src="doctor_page_img/cardiology.jpg" alt="">
+                </div>
+                <div class="dr_contentBx">
+                    <h2>Cardiologist</h2>
+                    <p>For treatment of heart & blood vessels problems</p>
+                </div>
+                <div class="dr_s_button">
+                    <a href="#dr_detail_1">Click here</a>
+                </div>
+            </div>
+            <div class="dr_sBx" id="Bx2">
+                <div class="dr_S_imgBx">
+                    <img src="doctor_page_img/urology_background_2.jpg" alt="">
+                </div>
+                <div class="dr_contentBx">
+                    <h2>Urologist</h2>
+                    <p>For treatment of kidney, urinary and bladder problems</p>
+                </div>
+                <div class="dr_s_button">
+                    <a href="#dr_detail_2">Click here</a>
+                </div>
+            </div>
+            <div class="dr_sBx" id="Bx3">
+                <div class="dr_S_imgBx">
+                    <img src="doctor_page_img/Neurology_1.jpg" alt="">
+                </div>
+                <div class="dr_contentBx">
+                    <h2>Neurologist</h2>
+                    <p>For diagnosing, treating, and managing disorders of the brain and nervous system.</p>
+                </div>
+                <div class="dr_s_button">
+                    <a href="#dr_detail_3">Click here</a>
+                </div>
+            </div>
+            <div class="dr_sBx" id="Bx4">
+                <div class="dr_S_imgBx">
+                    <img src="doctor_page_img/dentist_2.jpg" alt="">
+                </div>
+                <div class="dr_contentBx">
+                    <h2>Dentist</h2>
+                    <p>For diagnosis, prevention, and treatment of diseases and conditions of the oral cavity.</p>
+                </div>
+                <div class="dr_s_button">
+                    <a href="#dr_detail_4">Click here</a>
+                </div>
+            </div>
+            <div class="dr_sBx" id="Bx5">
+                <div class="dr_S_imgBx">
+                    <img src="doctor_page_img/dermatologist_1.jpg" alt="">
+                </div>
+                <div class="dr_contentBx">
+                    <h2>Dermatologist</h2>
+                    <p>For treatment of skin, hair, nail, and mucous membrane disorders and diseases. </p>
+                </div>
+                <div class="dr_s_button">
+                    <a href="#dr_detail_5">Click here</a>
+                </div>
+            </div>
+            <div class="dr_sBx" id="Bx6">
+                <div class="dr_S_imgBx">
+                    <img src="doctor_page_img/orthopadic_bg1.jpg" alt="">
+                </div>
+                <div class="dr_contentBx">
+                    <h2>Orthopedic</h2>
+                    <p>For surgery concerned with conditions involving the musculoskeletal system.</p>
+                </div>
+                <div class="dr_s_button">
+                    <a href="#dr_detail_6">Click here</a>
+                </div>
+            </div>
+            <div class="dr_sBx" id="Bx7">
+                <div class="dr_S_imgBx">
+                    <img src="doctor_page_img/physiotherapy_1.jpg" alt="">
+                </div>
+                <div class="dr_contentBx">
+                    <h2>Physiotherapy</h2>
+                    <p>For treatment to restore, maintain, and make the most of a patient's mobility, function, and
+                        well-being</p>
+                </div>
+                <div class="dr_s_button">
+                    <a href="#dr_detail_7">Click here</a>
+                </div>
+            </div>
+            <div class="dr_sBx" id="Bx8">
+                <div class="dr_S_imgBx">
+                    <img src="doctor_page_img/pediatrician_1.jpg" alt="">
+                </div>
+                <div class="dr_contentBx">
+                    <h2>Pediatric</h2>
+                    <p>For the physical, behavioural and mental health of children under 16</p>
+                </div>
+                <div class="dr_s_button">
+                    <a href="#dr_detail_8">Click here</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- doctor box End -->
+
+    <!-- ======================Doctor Detail List Start====================== -->
+    <div id="dr_info_containe">
+        <!-- doctor detail box-1 start -->
+        <div class="dr_info" id="dr_detail_1">
+            <div class="dr_title">
+                <h1>Visit the best experienced <b><i style="font-size: 40px; color: #007bff;">Cardiologist</i></b> in
+                    the town!</h1>
+            </div>
+            <div class="dr_info_card">
+                <div class="dr_imgBx">
+                    <img src="doctor_page_doctor_img/DM_3.webp" alt="">
+                </div>
+                <div class="dr_details">
+                    <h2>PRAVEEN CHANDRA</h2>
+                    <p><b>Doctor Id : </b>CHEART03</p>
+                    <p><b>Degree : </b>MD,PhD</p>
+                    <p><b>Specialist : </b>Cardiologist</p>
+                    <p><b>Contact No. : </b>9725354529</p>
+                    <p><b>Appointment Time :</b>10:00 to 4:00 </p>
+                    <p><b>Experienc : </b>3 years </p>
+                    <p><b>Charges : </b>500Rs. </p>
+                    <a href="Forms/appointment_form.html">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Make Appointment
+                    </a>
+                </div>
+            </div>
+            <div class="dr_info_card">
+                <div class="dr_imgBx">
+                    <img src="doctor_page_doctor_img/DW_1.webp" alt="">
+                </div>
+                <div class="dr_details">
+                    <h2>ASHOK SETH</h2>
+                    <p><b>Doctor Id : </b>CHEART06</p>
+                    <p><b>Degree : </b>MD</p>
+                    <p><b>Specialist : </b>Cardiologist</p>
+                    <p><b>Contact No. : </b>9725354529</p>
+                    <p><b>Appointment Time :</b>12:00 to 4:00 </p>
+                    <p><b>Experienc : </b>5 years </p>
+                    <p><b>Charges : </b>700Rs. </p>
+                    <a href="Forms/appointment_form.html">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Make Appointment
+                    </a>
+                </div>
+            </div>
+            <div class="dr_info_card">
+                <div class="dr_imgBx">
+                    <img src="doctor_page_doctor_img/DM_2.webp" alt="">
+                </div>
+                <div class="dr_details">
+                    <h2>NARESH TARAN</h2>
+                    <p><b>Doctor Id : </b>CHEART041</p>
+                    <p><b>Degree : </b>MD,DM(cardio)</p>
+                    <p><b>Specialist : </b>Cardiologist</p>
+                    <p><b>Contact No. : </b>9725354529</p>
+                    <p><b>Appointment Time :</b>10:00 to 2:00 </p>
+                    <p><b>Experienc : </b>7 years </p>
+                    <p><b>Charges : </b>1000Rs. </p>
+                    <a href="Forms/appointment_form.html">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Make Appointment
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        <!-- doctor detail box-1 end -->
+        <!-- doctor detail box-2 start -->
+        <div class="dr_info" id="dr_detail_2">
+            <div class="dr_title">
+                <h1>Visit the best experienced <b><i style="font-size: 40px; color: #007bff;">Urologist</i></b> in the
+                    town!</h1>
+            </div>
+            <div class="dr_info_card">
+                <div class="dr_imgBx">
+                    <img src="doctor_page_doctor_img/DW_4.webp" alt="">
+                </div>
+                <div class="dr_details">
+                    <h2>CHANDRA KANT</h2>
+                    <p><b>Doctor Id : </b>URODR45</p>
+                    <p><b>Degree : </b>FISNC</p>
+                    <p><b>Specialist : </b>Urologist</p>
+                    <p><b>Contact No. : </b>9725354529</p>
+                    <p><b>Appointment Time :</b>11:00 to 4:00 </p>
+                    <p><b>Experienc : </b>2 years </p>
+                    <p><b>Charges : </b>600Rs. </p>
+                    <a href="Forms/appointment_form.html">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Make Appointment
+                    </a>
+                </div>
+            </div>
+            <div class="dr_info_card">
+                <div class="dr_imgBx">
+                    <img src="doctor_page_doctor_img/DW_5.webp" alt="">
+                </div>
+                <div class="dr_details">
+                    <h2>RUCHIR MAHESHWARI</h2>
+                    <p><b>Doctor Id : </b>URODR52</p>
+                    <p><b>Degree : </b>MBBS</p>
+                    <p><b>Specialist : </b>Urologist</p>
+                    <p><b>Contact No. : </b>9725354529</p>
+                    <p><b>Appointment Time :</b>11:00 to 5:00 </p>
+                    <p><b>Experienc : </b>5 years </p>
+                    <p><b>Charges : </b>800Rs. </p>
+                    <a href="Forms/appointment_form.html">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Make Appointment
+                    </a>
+                </div>
+            </div>
+            <div class="dr_info_card">
+                <div class="dr_imgBx">
+                    <img src="doctor_page_doctor_img/DM_10.webp" alt="">
+                </div>
+                <div class="dr_details">
+                    <h2>S.V KOTWAL</h2>
+                    <p><b>Doctor Id : </b>URODR38</p>
+                    <p><b>Degree : </b>DM(niphro),MD</p>
+                    <p><b>Specialist : </b>Urologist</p>
+                    <p><b>Contact No. : </b>9725354529</p>
+                    <p><b>Appointment Time :</b>12:00 to 3:00 </p>
+                    <p><b>Experienc : </b>6 years </p>
+                    <p><b>Charges : </b>1200Rs. </p>
+                    <a href="Forms/appointment_form.html">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Make Appointment
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        <!-- doctor detail box-2 end -->
+        <!-- doctor detail box-3 start -->
+        <div class="dr_info" id="dr_detail_3">
+            <div class="dr_title">
+                <h1>Visit the best experienced <b><i style="font-size: 40px; color: #007bff;">Neurologist</i></b> in the
+                    town!</h1>
+            </div>
+            <div class="dr_info_card">
+                <div class="dr_imgBx">
+                    <img src="doctor_page_doctor_img/DW_6.jpg" alt="">
+                </div>
+                <div class="dr_details">
+                    <h2>ZENIFAR HAULI</h2>
+                    <p><b>Doctor Id : </b>NEUFE21</p>
+                    <p><b>Degree : </b>MBBS, MD</p>
+                    <p><b>Specialist : </b>NEUROLOGIST</p>
+                    <p><b>Contact No. : </b>9725354529</p>
+                    <p><b>Appointment Time :</b>9:00 to 4:00 </p>
+                    <p><b>Experienc : </b>2 years </p>
+                    <p><b>Charges : </b>700Rs. </p>
+                    <a href="Forms/appointment_form.html">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Make Appointment
+                    </a>
+                </div>
+            </div>
+            <div class="dr_info_card">
+                <div class="dr_imgBx">
+                    <img src="doctor_page_doctor_img/DM_12.jpg" alt="">
+                </div>
+                <div class="dr_details">
+                    <h2>SHINING BRIGHT</h2>
+                    <p><b>Doctor Id : </b>NEUMA01</p>
+                    <p><b>Degree : </b>MD,MRCP NEURO</p>
+                    <p><b>Specialist : </b>NEUROLOGIST</p>
+                    <p><b>Contact No. : </b>9725354529</p>
+                    <p><b>Appointment Time :</b>12:00 to 4:00 </p>
+                    <p><b>Experienc : </b>3 years </p>
+                    <p><b>Charges : </b>900Rs. </p>
+                    <a href="Forms/appointment_form.html">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Make Appointment
+                    </a>
+                </div>
+            </div>
+            <div class="dr_info_card">
+                <div class="dr_imgBx">
+                    <img src="doctor_page_doctor_img/DW_7.jpg" alt="">
+                </div>
+                <div class="dr_details">
+                    <h2>SARAH TAYLOR</h2>
+                    <p><b>Doctor Id : </b>NEUFE35</p>
+                    <p><b>Degree : </b>MD(Med.),MBBS</p>
+                    <p><b>Specialist : </b>NEUROLOGIST</p>
+                    <p><b>Contact No. : </b>9725354529</p>
+                    <p><b>Appointment Time :</b>10:00 to 2:00 </p>
+                    <p><b>Experienc : </b>6 years </p>
+                    <p><b>Charges : </b>2000Rs. </p>
+                    <a href="Forms/appointment_form.html">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Make Appointment
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        <!-- doctor detail box-3 end -->
+        <!-- doctor detail box-4 start -->
+        <div class="dr_info" id="dr_detail_4">
+            <div class="dr_title">
+                <h1>Visit the best experienced <b><i style="font-size: 40px; color: #007bff;">Dentist</i></b> in the
+                    town!</h1>
+            </div>
+            <div class="dr_info_card">
+                <div class="dr_imgBx">
+                    <img src="doctor_page_doctor_img/DW_8.jpg" alt="">
+                </div>
+                <div class="dr_details">
+                    <h2>Amanal Frond</h2>
+                    <p><b>Doctor Id : </b>DENFE32</p>
+                    <p><b>Degree : </b>MDS</p>
+                    <p><b>Specialist : </b>Dentist</p>
+                    <p><b>Contact No. : </b>9725354529</p>
+                    <p><b>Appointment Time :</b>11:00 to 4:00 </p>
+                    <p><b>Experienc : </b>3 years </p>
+                    <p><b>Charges : </b>700Rs. </p>
+                    <a href="Forms/appointment_form.html">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Make Appointment
+                    </a>
+                </div>
+            </div>
+            <div class="dr_info_card">
+                <div class="dr_imgBx">
+                    <img src="doctor_page_doctor_img/DW_9.jpg" alt="">
+                </div>
+                <div class="dr_details">
+                    <h2>Collis Molate</h2>
+                    <p><b>Doctor Id : </b>DENMA012</p>
+                    <p><b>Degree : </b>BDS,FPFA</p>
+                    <p><b>Specialist : </b>Dentist</p>
+                    <p><b>Contact No. : </b>9725354529</p>
+                    <p><b>Appointment Time :</b>12:00 to 3:00 </p>
+                    <p><b>Experienc : </b>5 years </p>
+                    <p><b>Charges : </b>1100Rs. </p>
+                    <a href="Forms/appointment_form.html">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Make Appointment
+                    </a>
+                </div>
+            </div>
+            <div class="dr_info_card">
+                <div class="dr_imgBx">
+                    <img src="doctor_page_doctor_img/DW_11.jpg" alt="">
+                </div>
+                <div class="dr_details">
+                    <h2>Naimur Rahman</h2>
+                    <p><b>Doctor Id : </b>DENFE89</p>
+                    <p><b>Degree : </b>MSD-Oral surgery</p>
+                    <p><b>Specialist : </b>Dentist</p>
+                    <p><b>Contact No. : </b>9725354529</p>
+                    <p><b>Appointment Time :</b>10:00 to 4:00 </p>
+                    <p><b>Experienc : </b>8 years </p>
+                    <p><b>Charges : </b>1500Rs. </p>
+                    <a href="Forms/appointment_form.html">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Make Appointment
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        <!-- doctor detail box-4 end -->
+        <!-- doctor detail box-5 start -->
+        <div class="dr_info" id="dr_detail_5">
+            <div class="dr_title">
+                <h1>Visit the best experienced <b><i style="font-size: 40px; color: #007bff;">Dermatologist</i></b> in
+                    the town!</h1>
+            </div>
+            <div class="dr_info_card">
+                <div class="dr_imgBx">
+                    <img src="doctor_page_doctor_img/DM_13.jpeg" alt="">
+                </div>
+                <div class="dr_details">
+                    <h2>Max Jordin</h2>
+                    <p><b>Doctor Id : </b>DERMA035</p>
+                    <p><b>Degree : </b>MD,MBBS</p>
+                    <p><b>Specialist : </b>Dermatologist</p>
+                    <p><b>Contact No. : </b>9725354529</p>
+                    <p><b>Appointment Time :</b>9:00 to 4:00 </p>
+                    <p><b>Experienc : </b>4 years </p>
+                    <p><b>Charges : </b>5000Rs. </p>
+                    <a href="Forms/appointment_form.html">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Make Appointment
+                    </a>
+                </div>
+            </div>
+            <div class="dr_info_card">
+                <div class="dr_imgBx">
+                    <img src="doctor_page_doctor_img/DW_14.jpg" alt="">
+                </div>
+                <div class="dr_details">
+                    <h2>Ava luies</h2>
+                    <p><b>Doctor Id : </b>DERFE046</p>
+                    <p><b>Degree : </b>MCSI,MBBS</p>
+                    <p><b>Specialist : </b>Dermatologist</p>
+                    <p><b>Contact No. : </b>9725354529</p>
+                    <p><b>Appointment Time :</b>11:00 to 4:00 </p>
+                    <p><b>Experienc : </b>5 years </p>
+                    <p><b>Charges : </b>600Rs. </p>
+                    <a href="Forms/appointment_form.html">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Make Appointment
+                    </a>
+                </div>
+            </div>
+            <div class="dr_info_card">
+                <div class="dr_imgBx">
+                    <img src="doctor_page_doctor_img/DM_15.jpg" alt="">
+                </div>
+                <div class="dr_details">
+                    <h2>Domani Plavon</h2>
+                    <p><b>Doctor Id : </b>DERMA045</p>
+                    <p><b>Degree : </b>DCH,DPB</p>
+                    <p><b>Specialist : </b>Dermatologist</p>
+                    <p><b>Contact No. : </b>9725354529</p>
+                    <p><b>Appointment Time :</b>11:00 to 3:00 </p>
+                    <p><b>Experienc : </b>3 years </p>
+                    <p><b>Charges : </b>400Rs. </p>
+                    <a href="Forms/appointment_form.html">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Make Appointment
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        <!-- doctor detail box-5 end -->
+        <!-- doctor detail box-6 start -->
+        <div class="dr_info" id="dr_detail_6">
+            <div class="dr_title">
+                <h1>Visit the best experienced <b><i style="font-size: 40px; color: #007bff;">Orthopedic</i></b> in the
+                    town!</h1>
+            </div>
+            <div class="dr_info_card">
+                <div class="dr_imgBx">
+                    <img src="doctor_page_doctor_img/DW_16.jpg" alt="">
+                </div>
+                <div class="dr_details">
+                    <h2>Mili Brown</h2>
+                    <p><b>Doctor Id : </b>ORTFE20</p>
+                    <p><b>Degree : </b>MS</p>
+                    <p><b>Specialist : </b>Orthopedic</p>
+                    <p><b>Contact No. : </b>9725354529</p>
+                    <p><b>Appointment Time :</b>10:00 to 3:00 </p>
+                    <p><b>Experienc : </b>3 years </p>
+                    <p><b>Charges : </b>1500Rs. </p>
+                    <a href="Forms/appointment_form.html">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Make Appointment
+                    </a>
+                </div>
+            </div>
+            <div class="dr_info_card">
+                <div class="dr_imgBx">
+                    <img src="doctor_page_doctor_img/DW_17.jpg" alt="">
+                </div>
+                <div class="dr_details">
+                    <h2>Alisha Brown</h2>
+                    <p><b>Doctor Id : </b>ORTFE24</p>
+                    <p><b>Degree : </b>MS(Ortho)</p>
+                    <p><b>Specialist : </b>Orthopedic</p>
+                    <p><b>Contact No. : </b>9725354529</p>
+                    <p><b>Appointment Time :</b>11:00 to 4:00 </p>
+                    <p><b>Experienc : </b>4 years </p>
+                    <p><b>Charges : </b>2000Rs. </p>
+                    <a href="Forms/appointment_form.html">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Make Appointment
+                    </a>
+                </div>
+            </div>
+            <div class="dr_info_card">
+                <div class="dr_imgBx">
+                    <img src="doctor_page_doctor_img/DM_18.jpg" alt="">
+                </div>
+                <div class="dr_details">
+                    <h2>John Mard</h2>
+                    <p><b>Doctor Id : </b>ORTMA21</p>
+                    <p><b>Degree : </b>MBBS,MD(ORTHO)</p>
+                    <p><b>Specialist : </b>Orthopedic</p>
+                    <p><b>Contact No. : </b>9725354529</p>
+                    <p><b>Appointment Time :</b>9:00 to 4:00 </p>
+                    <p><b>Experienc : </b>5 years </p>
+                    <p><b>Charges : </b>2700Rs. </p>
+                    <a href="Forms/appointment_form.html">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Make Appointment
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        <!-- doctor detail box-6 end -->
+        <!-- doctor detail box-7 start -->
+        <div class="dr_info" id="dr_detail_7">
+            <div class="dr_title">
+                <h1>Visit the best experienced <b><i style="font-size: 40px; color: #007bff;">Physiotherapy</i></b> in
+                    the town!</h1>
+            </div>
+            <div class="dr_info_card">
+                <div class="dr_imgBx">
+                    <img src="doctor_page_doctor_img/DM_19.jpg" alt="">
+                </div>
+                <div class="dr_details">
+                    <h2>David Harbour</h2>
+                    <p><b>Doctor Id : </b>PHYMA088</p>
+                    <p><b>Degree : </b>BPT</p>
+                    <p><b>Specialist : </b>Physiotherapy</p>
+                    <p><b>Contact No. : </b>9725354529</p>
+                    <p><b>Appointment Time :</b>9:00 to 2:00 </p>
+                    <p><b>Experienc : </b>4 years </p>
+                    <p><b>Charges : </b>1200Rs. </p>
+                    <a href="Forms/appointment_form.html">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Make Appointment
+                    </a>
+                </div>
+            </div>
+            <div class="dr_info_card">
+                <div class="dr_imgBx">
+                    <img src="doctor_page_doctor_img/DW_20.jpg" alt="">
+                </div>
+                <div class="dr_details">
+                    <h2>Natalia Dyer</h2>
+                    <p><b>Doctor Id : </b>PHYFE074</p>
+                    <p><b>Degree : </b>PT</p>
+                    <p><b>Specialist : </b>Physiotherapy</p>
+                    <p><b>Contact No. : </b>9725354529</p>
+                    <p><b>Appointment Time :</b>11:00 to 4:00 </p>
+                    <p><b>Experienc : </b>5 years </p>
+                    <p><b>Charges : </b>1500Rs. </p>
+                    <a href="Forms/appointment_form.html">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Make Appointment
+                    </a>
+                </div>
+            </div>
+            <div class="dr_info_card">
+                <div class="dr_imgBx">
+                    <img src="doctor_page_doctor_img/DW_21.jpg" alt="">
+                </div>
+                <div class="dr_details">
+                    <h2>Maya Hawke</h2>
+                    <p><b>Doctor Id : </b>PHYFE084</p>
+                    <p><b>Degree : </b>MS(Physio)</p>
+                    <p><b>Specialist : </b>Physiotherapy</p>
+                    <p><b>Contact No. : </b>9725354529</p>
+                    <p><b>Appointment Time :</b>12:00 to 5:00 </p>
+                    <p><b>Experienc : </b>7 years </p>
+                    <p><b>Charges : </b>2100Rs. </p>
+                    <a href="Forms/appointment_form.html">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Make Appointment
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        <!-- doctor detail box-7 end -->
+        <!-- doctor detail box-8 start -->
+        <div class="dr_info" id="dr_detail_8">
+            <div class="dr_title">
+                <h1>Visit the best experienced <b><i style="font-size: 40px; color: #007bff;">Pediatric</i></b> in the
+                    town!</h1>
+            </div>
+            <div class="dr_info_card">
+                <div class="dr_imgBx">
+                    <img src="doctor_page_doctor_img/DW_22.jpg" alt="">
+                </div>
+                <div class="dr_details">
+                    <h2>Sadia Sink</h2>
+                    <p><b>Doctor Id : </b>PEDFE87</p>
+                    <p><b>Degree : </b>MD(Pedia)</p>
+                    <p><b>Specialist : </b>Pediatric</p>
+                    <p><b>Contact No. : </b>9725354529</p>
+                    <p><b>Appointment Time :</b>11:00 to 4:00 </p>
+                    <p><b>Experienc : </b>4 years </p>
+                    <p><b>Charges : </b>1000Rs. </p>
+                    <a href="Forms/appointment_form.html">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Make Appointment
+                    </a>
+                </div>
+            </div>
+            <div class="dr_info_card">
+                <div class="dr_imgBx">
+                    <img src="doctor_page_doctor_img/DM_23.jpg" alt="">
+                </div>
+                <div class="dr_details">
+                    <h2>Charlie Heaton</h2>
+                    <p><b>Doctor Id : </b>PEDMA030</p>
+                    <p><b>Degree : </b>BM,BS</p>
+                    <p><b>Specialist : </b>Pediatric</p>
+                    <p><b>Contact No. : </b>9725354529</p>
+                    <b>Experienc : </b>6 years </p>
+                    <p><b>Appointment Time :</b>11:00 to 4:00 </p>
+                    <p<p><b>Charges : </b>1200Rs. </p>
+                        <a href="Forms/appointment_form.html">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            Make Appointment
+                        </a>
+                </div>
+            </div>
+            <div class="dr_info_card">
+                <div class="dr_imgBx">
+                    <img src="doctor_page_doctor_img/DM_24.jpg" alt="">
+                </div>
+                <div class="dr_details">
+                    <h2>Sean Astin</h2>
+                    <p><b>Doctor Id : </b>PEDMA007</p>
+                    <p><b>Degree : </b>PSRP</p>
+                    <p><b>Specialist : </b>Pediatric</p>
+                    <p><b>Contact No. : </b>9725354529</p>
+                    <p><b>Appointment Time :</b>12:00 to 5:00</p>
+                    <p><b>Experienc : </b>7 years </p>
+                    <p><b>Charges : </b>1700Rs. </p>
+                    <a href="Forms/appointment_form.html">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Make Appointment
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        <!-- doctor detail box-8 end -->
+
+    </div>
+    <!-- ======================Doctor Detail List End====================== -->
+    <!-- ======================Doctor info. End====================== -->
+    <!-- ======================Footer Start====================== -->
+    <div id="footer">
+        <div class="containerFooter">
+            <div class="row">
+                <div class="footer-col">
+                    <h4><b>Quick links</b></h4>
+                    <ul>
+                        <li><a href="home_page.html">Home</a></li>
+                        <li><a href="doctor_page.html">Doctors</a></li>
+                        <li><a href="blog_page.html">Achievements</a></li>
+                        <li><a href="Services_page.html">Services</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4><b>get help</b></h4>
+                    <ul>
+                        <li><a href="Forms/contact_us_form.html">Contact us</a></li>
+                        <li><a href="#" onclick="EmailAlert()">Email</a></li>
+                        <li><a href="#" onclick="AppointmentQuery()">Appointment Query</a></li>
+                        <li><a href="#" onclick="whatsappAlert()">Whatsapp</a></li>
+                        <script>
+                            function whatsappAlert() {
+                                alert("Message Us on +91 9725359xyz");
+                            }
+
+                            function EmailAlert() {
+                                alert("Mail us on rajputbrijesh@gmail.com");
+                            }
+
+                            function AppointmentQuery() {
+                                alert("Contact us on +91 9725359xyz");
+                            }
+                        </script>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4><b>Medical Shop</b></h4>
+                    <ul>
+                        <li><a target="_blank"
+                              href="https://www.dhani.com/pharmacy/home/home2?utm_source=google&utm_medium=cpc&utm_campaign=SB_Generic_Search_TCPA_Exact_Sept_LowIntent&gclid=EAIaIQobChMIkfzp-aSQ9AIVmAVyCh2ZSQgXEAAYASAAEgI6W_D_BwE">Medicines</a>
+                        </li>
+                        <li><a target="_blank"
+                              href="https://www.dhani.com/pharmacy/home/home2?utm_source=google&utm_medium=cpc&utm_campaign=SB_Generic_Search_TCPA_Exact_Sept_LowIntent&gclid=EAIaIQobChMIkfzp-aSQ9AIVmAVyCh2ZSQgXEAAYASAAEgI6W_D_BwE">Baby
+                              Products</a></li>
+                        <li><a target="_blank"
+                              href="https://www.dhani.com/pharmacy/home/home2?utm_source=google&utm_medium=cpc&utm_campaign=SB_Generic_Search_TCPA_Exact_Sept_LowIntent&gclid=EAIaIQobChMIkfzp-aSQ9AIVmAVyCh2ZSQgXEAAYASAAEgI6W_D_BwE">Skin
+                              Products</a></li>
+                        <li><a target="_blank"
+                              href="https://www.dhani.com/pharmacy/home/home2?utm_source=google&utm_medium=cpc&utm_campaign=SB_Generic_Search_TCPA_Exact_Sept_LowIntent&gclid=EAIaIQobChMIkfzp-aSQ9AIVmAVyCh2ZSQgXEAAYASAAEgI6W_D_BwE">Antiseptics</a>
+                        </li>
+                     </ul>
+                </div>
+                <div class="footer-col">
+                    <h4><b>Schedule</b></h4>
+                    <ul>
+                        <li><a>Mon-Fri : 9:30 to 19:00</a></li>
+                        <li><a>Sat : 11:00 to 15:00</a></li>
+                        <li><a>Sun : Only emergencies</a></li>
+                        <li><a></a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4><b>follow us</b></h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <div class="email-footer">
+                        <input type="email" placeholder="Enter Your Email">
+                        <i class="fas fa-paper-plane"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ======================Footer End======================= -->
+    <!-- ======================Quick Navbar Btn Start======================= -->
+    <div id="quick_navbar_btn">
+        <a href="#for_quick_arrow">
+            <i class="fas fa-chevron-up"></i>
+        </a>
+    </div>
+    <!-- ======================Quick Navbar Btn End======================= -->
+    <!-- ======================Copyright Start======================= -->
+    <div id="copyright">
+        <div class="cr">
+            <h2>
+                &copy; copyright 2021 | All Rights Reserved by &nbsp;<a href="http://google.com">google.com</a>
+            </h2>
+        </div>
+    </div>
+    <!-- ======================Copyright End======================= -->
+
+</body>
+
+</html>

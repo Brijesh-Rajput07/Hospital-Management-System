@@ -1,0 +1,97 @@
+/* #Emergency-Help { */
+    /* border: 2px solid red; */
+/* } */
+
+.EH {
+    background: url(../img/emer_ambulance3.jpg)no-repeat center center/cover;
+    height: 280px;
+    /* display: flex; */
+    /* align-items: center; */
+    position: relative;
+    padding-top: 75px;
+    z-index: -2;
+    background-attachment: fixed;
+    /* filter: blur(5px); */
+}
+
+.EH::before {
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #000000ce;
+    z-index: -1;
+}
+
+.EH .EH-top {
+    /* border: 2px solid green; */
+    text-align: center;
+    /* margin-top: 100px; */
+    font-size: 27px;
+    z-index: 2;
+    color: white;
+    font-weight: bold;
+}
+
+.EH .EH-mid {
+    text-align: center;
+    margin: 0 30px;
+    padding-top: 55px;
+    color: #c5c5c5;
+    font-size: 20px;
+}
+.EH .EH-mid  i{
+    position: absolute;
+    left: 545px;
+    font-size: 19px;
+}
+
+.EH-btn {
+    display: flex;
+    /* position: absolute; */
+    text-decoration: none;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 50px;
+    z-index: 10;
+
+}
+
+.EH-btns {
+    margin: 0px 25px;
+    border: 2px solid white;
+    padding: 14px 30px;
+    font-size: 20px;
+    background-color: #fff;
+}
+.EH-btns a{
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/*
+#EH-btn1 {
+    background-color: #fff;
+    
+}
+#EH-btn1:hover{
+    background-color: #007bff;
+    
+}
+
+#EH-btn1 a {
+    color: #007bff;
+    font-weight: 600;
+}
+
+#EH-btn2 {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#EH-btn2 a {
+    color: #fff;
+    font-weight: 600;
+} */

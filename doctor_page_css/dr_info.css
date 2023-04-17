@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belgrano&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@200&family=Roboto+Mono:wght@300&display=swap');
+/* Doctor shortcut box start */
+#dr_info {
+    margin: 0;
+    padding: 0%
+}
+
+#dr_info .dr_shortcut {
+    text-align: center;
+    margin: 10px;
+    padding: 10px 5px;
+    font-size: 28px;
+    padding-top: 32px;
+}
+
+#dr_info .dr_shortcutBx {
+    max-width: 1300px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.dr_shortcutBx .dr_sBx {
+    margin: 15px 10px;
+    width: 280px;
+    height: 350px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 13px rgb(209, 209, 209);
+    transition: 0.5s;
+    background: rgba(0, 31, 63, 0.220);
+}
+.dr_shortcutBx .dr_sBx:hover{
+    transform: scale(1.01);
+    box-shadow: 7px 7px 13px rgba(78, 78, 78, 0.6);
+}
+
+.dr_S_imgBx img {
+    margin: 0;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+}
+
+.dr_sBx .dr_contentBx {
+    padding: 5px 10px;
+    height: 88px;
+}
+
+.dr_sBx .dr_contentBx h2 {
+    text-align: center;
+}
+
+.dr_sBx .dr_contentBx p {
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Roboto Mono', monospace;
+    color: #0f0f0fbe;
+}
+
+.dr_sBx .dr_s_button {
+    /* background: #00203fff; */
+    justify-content: center;
+    text-transform: uppercase;
+    display: flex;
+    padding: 15px 20px;
+    border-bottom-left-radius: 13px;
+    background: #00203fff;
+    border-bottom-right-radius: 13px
+
+}
+
+.dr_s_button a {
+    color: white;
+
+}
+/* #Bx1 .dr_s_button{
+    background: crimson
+}
+#Bx2 .dr_s_button{
+    background: rgb(0, 190, 0)
+}
+#Bx3 .dr_s_button{
+    background: red
+}
+#Bx4 .dr_s_button{
+    background: #007bff
+}
+#Bx5 .dr_s_button{
+    background: #00203fff
+}
+#Bx6 .dr_s_button{
+    background: purple
+}
+#Bx7 .dr_s_button{
+    background: #101820ff
+}
+#Bx8 .dr_s_button{
+    background: orangered
+}
+#Bx1 {
+    background: rgba(220, 20, 60, 0.164);
+    filter: blur(-1px);
+}
+#Bx2 {
+    background: rgba(0, 190, 0, 0.164)
+}
+#Bx3 {
+    background: rgba(255, 0, 0, 0.164);
+}
+
+#Bx4 {
+    background: #007bff3f
+}
+
+#Bx5 {
+    background: rgba(0, 31, 63, 0.220);
+}
+
+#Bx6 {
+    background: rgba(128, 0, 128, 0.2)
+}
+
+#Bx7 {
+    background: rgba(16, 24, 32, 0.220)
+}
+
+#Bx8 {
+    background: rgba(255, 68, 0, 0.220)
+} */
+/* Doctor shortcut box end */
+/* Doctor detail list start */
+#dr_info_container{
+    margin: 0;
+    padding: 0;
+    background: #f2f2f2;
+    font-family: 'Quicksand',sans-serif;
+}
+#dr_detail_1{
+    transition: 1s;
+    background: url(../doctor_page_img/cardiology_background_1.jpg)no-repeat center center/cover ;
+    margin: 15px 0px;
+}
+#dr_detail_1::before{
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #000000ce;
+    z-index: -1
+}
+#dr_detail_2{
+    transition: 1s;
+    background: url(../doctor_page_img/urology_background_3.jpg)no-repeat center center/cover ;
+    margin: 15px 0px;
+}
+#dr_detail_2::before{
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #000000ce;
+    z-index: -1
+}
+#dr_detail_3{
+    transition: 1s;
+    background: url(../doctor_page_img/neurology_background_3.jpg)no-repeat center center/cover ;
+    margin: 15px 0px;
+}
+#dr_detail_3::before{
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #000000ce;
+    z-index: -1
+}
+#dr_detail_4{
+    transition: 1s;
+    background: url(../doctor_page_img/DENTIST_BG_1.jpg)no-repeat center center/cover ;
+    margin: 15px 0px;
+}
+#dr_detail_4::before{
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #000000b9;
+    z-index: -1
+}
+#dr_detail_5{
+    transition: 1s;
+    background: url(../doctor_page_img/dermatology-BG1.jpg)no-repeat center center/cover ;
+    margin: 15px 0px;
+}
+#dr_detail_5::before{
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #000000b9;
+    z-index: -1
+}
+#dr_detail_6{
+    transition: 1s;
+    background: url(../doctor_page_img/orthopadic_1.jpg)no-repeat center center/cover ;
+    margin: 15px 0px;
+}
+#dr_detail_6::before{
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #000000a1;
+    z-index: -1
+}
+#dr_detail_7{
+    transition: 1s;
+    background: url(../doctor_page_img/physiotherapy_bg1.jpg)no-repeat center center/cover ;
+    margin: 15px 0px;
+}
+#dr_detail_7::before{
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #000000ce;
+    z-index: -1
+}
+#dr_detail_8{
+    transition: 1s;
+    background: url(../doctor_page_img/Pediatric_bg_2.jpg)no-repeat center center/cover ;
+    margin: 15px 0px;
+}
+#dr_detail_8::before{
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #000000b7;
+    z-index: -1
+}
+.dr_info{
+    max-width: 100%;
+    /* background-attachment: fixed; */
+    margin: 0px auto;
+    padding:  0 100px;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    z-index: 1;
+    padding-bottom: 60px;
+}
+.dr_title{
+    /* display: inline; */
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.dr_info_card{
+    position: relative;
+    margin: 30px 30px;
+    width: 300px;
+    height: 400px;
+    background: #1f242d;
+    color: #f2f2f2;
+    transform-style: preserve-3d;
+    transform: perspective(2000px);
+    transition: 1s;
+    box-shadow: inset 300px 0 50px rgba(0, 0, 0, .5);
+}
+.dr_info_card:hover{
+    transform: perspective(2000px) rotate(-0deg);
+    box-shadow: inset 20px 0 50px rgba(0, 0, 0, .5);
+}
+.dr_info_card .dr_imgBx{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    transform-origin: left;
+    z-index: 1;
+    transition: 1s;
+}
+
+.dr_info_card:hover .dr_imgBx{
+    transform: rotateY(-135deg);
+}
+
+.dr_info_card .dr_imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.dr_info_card .dr_details{
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.dr_info_card .dr_details h2{
+    margin: 15px 0px;
+    font-size: 25px;
+    font-family: 'Source Code Pro', monospace;
+}
+.dr_info_card .dr_details p{
+    margin: 15px 0px;
+    font-family: 'Manrope', sans-serif;
+}
+/* appointment button */
+.dr_details a{
+    color: rgba(255, 225, 225, .4);
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.5s;
+    letter-spacing: 2px;
+    background: #262c37;
+    position: relative;
+    display: inline-block;
+    margin: 10px 25px;
+}
+.dr_details a:hover{
+    color: rgba(255, 255, 255, 1);
+    /* transform: scale(1.01); */
+}
+.dr_details a span{
+    display: block;
+    position: absolute;
+    background: #2894ff;
+}
+.dr_details a span:nth-child(1){
+    left: 0;
+    bottom: 0;
+    width: 1.5px;
+    height: 100%;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform .5s;
+}
+.dr_details a:hover span:nth-child(1){
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform .5s;   
+}
+.dr_details a span:nth-child(2){
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1.5px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .5s;
+}
+.dr_details a:hover span:nth-child(2){
+    transform: scaleX(1);
+    transform-origin: left;
+    transition: transform .5s;   
+}
+.dr_details a span:nth-child(3){
+    right: 0;
+    bottom: 0;
+    width: 1.5px;
+    height: 100%;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform .5s;
+    transition-delay: 0.5s;
+}
+.dr_details a:hover span:nth-child(3){
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform .5s;   
+    transition-delay: 0.5s;
+}
+.dr_details a span:nth-child(4){
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 1.5px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .5s;
+    transition-delay: 0.5s;
+}
+.dr_details a:hover span:nth-child(4){
+    transform: scaleX(1);
+    transform-origin: left;
+    transition: transform .5s;   
+    transition-delay: 0.5s;
+}
+/* Doctor detail list end */

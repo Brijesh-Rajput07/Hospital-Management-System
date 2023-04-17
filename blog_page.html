@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Page</title>  
+  <!-- for icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Navbar Start -->
+  <link rel="stylesheet" href="Blog_page_css/navbar.css">
+  <!-- Navbar End -->
+  <!-- Blog Landing page Start -->
+  <link rel="stylesheet" href="Blog_page_css/blog_landing.css">
+  <!-- <link rel="stylesheet" href="/doctor_page_css/dr_landing.css"> -->
+  <!-- Blog Landing page End -->
+  <!-- Blog Detail Start -->
+  <link rel="stylesheet" href="Blog_page_css/blog_detail.css">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+  <!-- Blog Detail End -->
+  <!-- Footer Start -->
+  <link rel="stylesheet" href="Blog_page_css/footer.css">
+  <!-- Footer End -->
+  <!-- Quick Navbar Arrow Start -->
+  <link rel="stylesheet" href="Blog_page_css/quick_navbar_arrow.css">
+  <!-- Quick Navbar Arrow End -->
+  <!-- Copyright Start -->
+  <link rel="stylesheet" href="Blog_page_css/copyright.css">
+  <!-- Copyright End -->
+</head>
+
+<body>
+  <!-- ======================Navigation Menu Start====================== -->
+  <div id="for_quick_arrow"></div>
+  <section class="navbar">
+    <label class="logo">Wel<span style="color: #000;">Care</span></label>
+    <ul>
+      <li><a href="home_page.html">Home</a></li>
+      <li><a href="doctor_page.html">Doctors</a></li>
+      <li>
+        <a class="active" href="">Blogs
+          <i class="fas fa-caret-down"></i>
+        </a>
+        <ul>
+          <li><a href="#">Daily Blogs</a></li>
+          <li><a href="#">Techno. Blog</a></li>
+          <li><a href="#">Achievement</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="Services_page.html">Services
+          <i class="fas fa-caret-down"></i>
+        </a>
+        <ul>
+          <li><a href="Services_page.html">ICU</a></li>
+          <li>
+            <a href="">Emergency
+              <i class="fas fa-caret-right"></i>
+            </a>
+            <ul>
+              <li><a href="Services_page.html">Ambulance</a></li>
+              <li><a href="Services_page.html">Blood</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><a href="Forms/contact_us_form.html">Contact Us</a></li>
+      <!-- <li><a href="#">Feedback</a></li> -->
+    </ul>
+    <div>
+      <a href="Forms/appointment_form.html" class="button">Appointment</a>
+    </div>
+  </section>
+  <!-- ======================Navigation Menu End====================== -->
+  <!-- ======================Blog Landing Page Start====================== -->
+  <!-- <div id="blog_landing_page">
+        <div class="blog_landing">
+            <img src="/Blog_page_images/7_dr_img.jpg" alt="">
+            <div class="BL_detail">
+                <h3>write small title here</h3>
+                <h2>im a creative <span>Designer</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis perferendis ipsa rem. Hic maiores cum
+                    molestiae voluptatibus exercitationem debitis ratione!</p>
+            </div>
+        </div>
+    </div> -->
+  <div id="dr_landing">
+    <div class="dr_wel">
+      <h2>Meet our qualified Doctors</h2>
+      <ul>
+        <li id="dr_home"><a href="home_page.html">Home</a></li>
+        <li><i class="fas fa-angle-right"></i></li>
+        <li><a>Blogs</a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- ======================Blog Landing Page End====================== -->
+  <!-- ======================Blog detail Page Start====================== -->
+  <!-- <h1>Title of blog</h1> -->
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-wrap -m-4" style=" margin-bottom: -120px;">
+        <div class="p-4 md:w-1/3">
+          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+              src="Blog_page_images/Anaesthesiologist_pic_1.jpg" alt="blog">
+            <div class="p-6">
+              <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Know you Anaesthesiologist: the doctor
+                behind your Surgeries</h1>
+              <p class="leading-relaxed mb-3">There are surgeons for all surgical procedures; minor or major, elective
+                or emergency, critical or
+                non critical. For most of the patients the surgeons are the star performers or the superheroes.</p>
+              <div class="flex items-center flex-wrap ">
+                <a href="https://www.maxhealthcare.in/blogs/know-your-anaesthesiologist-doctor-behind-your-surgical-hero"
+                  target="_blank" class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+                <span
+                  class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                    <circle cx="12" cy="12" r="3"></circle>
+                  </svg>1.2K
+                </span>
+                <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path
+                      d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                    </path>
+                  </svg>6
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/3">
+          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="Blog_page_images/CPR_pic_1.jpg"
+              alt="blog">
+            <div class="p-6">
+              <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Emergency: How to do CPR on an adult!</h1>
+              <p class="leading-relaxed mb-3">Cardiopulmonary resuscitation (CPR) is a lifesaving technique useful in
+                many emergencies, including heart attack or near drowning, in which someone's breathing or heartbeat has
+                stopped. Knowing how to perform CPR on an adult could save a life.</p>
+              <div class="flex items-center flex-wrap">
+                <a href="https://www.maxhealthcare.in/blogs/emergency-how-do-cpr-adult" target="_blank"
+                  class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+                <span
+                  class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                    <circle cx="12" cy="12" r="3"></circle>
+                  </svg>1.2K
+                </span>
+                <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path
+                      d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                    </path>
+                  </svg>6
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/3">
+          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="Blog_page_images/accident_pic_1.jpg"
+              alt="blog">
+            <div class="p-6">
+              <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The Golden 60 minutes after accident
+                (Inforgraphic)!</h1>
+              <p class="leading-relaxed mb-3">The "First Hour" after a traumatic injury or accident is the golden time
+                period of saving someone's life. A prompt action can increase the survival rate and prevent death. But,
+                do you know that only 20% patients receive immediate intervention after accident?
+              </p>
+              <div class="flex items-center flex-wrap ">
+                <a href="https://www.maxhealthcare.in/blogs/golden-60-minutes-after-accident-infographic"
+                  target="_blank" class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+                <span
+                  class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                    <circle cx="12" cy="12" r="3"></circle>
+                  </svg>1.2K
+                </span>
+                <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path
+                      d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                    </path>
+                  </svg>6
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- </section>
+      <section class="text-gray-600 body-font"> -->
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-wrap -m-4">
+        <div class="p-4 md:w-1/3">
+          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="Blog_page_images/kidney_pic_1.jpg"
+              alt="blog">
+            <div class="p-6">
+              <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Kidneys are vital for life‘ says, Dr. Puneet
+                Arora</h1>
+              <p class="leading-relaxed mb-3">The role of the kidneys is often underrated when we think about our
+                health. In fact, kidneys play a significant part in the daily functioning of our body. With an objective
+                to educate people about healthy kidneys Dr. Puneet Arora,...</p>
+              <div class="flex items-center flex-wrap ">
+                <a href="https://www.maxhealthcare.in/blogs/kidneys-are-vital-life-says-dr-puneet-arora" target="_blank"
+                  class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+                <span
+                  class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                    <circle cx="12" cy="12" r="3"></circle>
+                  </svg>1.2K
+                </span>
+                <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path
+                      d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                    </path>
+                  </svg>6
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/3">
+          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="Blog_page_images/brain_pic_1.jpg"
+              alt="blog">
+            <div class="p-6">
+              <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Meningioma Brain Tumors: Answers to commonly
+                asked questions</h1>
+              <p class="leading-relaxed mb-3">A meningioma tumor can be a severe condition, as it typically occurs on
+                the brain, which means it causes a number of other serious conditions.</p>
+              <div class="flex items-center flex-wrap">
+                <a href="https://www.maxhealthcare.in/blogs/meningioma-brain-tumors-answers-commonly-asked-questions"
+                  target="_blank" class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+                <span
+                  class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                    <circle cx="12" cy="12" r="3"></circle>
+                  </svg>1.2K
+                </span>
+                <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path
+                      d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                    </path>
+                  </svg>6
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/3">
+          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="Blog_page_images/swinFlu_pic_1.jpg"
+              alt="blog">
+            <div class="p-6">
+              <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">How to protect yourself from Swine Flu?</h1>
+              <p class="leading-relaxed mb-3">Swine flu is a respiratory infection caused by a virus which usually
+                infects pigs. The virus is highly contagious and can survive in the environment for days. It is not
+                unusual for people to get the infection.</p>
+              <div class="flex items-center flex-wrap ">
+                <a href="https://www.maxhealthcare.in/blogs/how-protect-yourself-swine-flu" target="_blank"
+                  class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+                <span
+                  class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                    <circle cx="12" cy="12" r="3"></circle>
+                  </svg>1.2K
+                </span>
+                <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path
+                      d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                    </path>
+                  </svg>6
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================Blog detail Page End====================== -->
+  <!-- ======================Footer Start====================== -->
+  <div id="footer">
+    <div class="containerFooter">
+      <div class="row">
+        <div class="footer-col">
+          <h4><b>Quick links</b></h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="doctor_page.html">Doctors</a></li>
+            <li><a href="blog_page.html">Achievements</a></li>
+            <li><a href="Services_page.html">Services</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4><b>get help</b></h4>
+          <ul>
+            <li><a href="Forms/contact_us_form.html">Contact us</a></li>
+            <li><a href="#" onclick="EmailAlert()">Email</a></li>
+            <li><a href="#" onclick="AppointmentQuery()">Appointment Query</a></li>
+            <li><a href="#" onclick="whatsappAlert()">Whatsapp</a></li>
+            <script>
+              function whatsappAlert() {
+                alert("Message Us on +91 9998414xyz");
+              }
+
+              function EmailAlert() {
+                alert("Mail us on brijeshrajput170@gmail.com");
+              }
+
+              function AppointmentQuery() {
+                alert("Contact us on +91 9998414xyz");
+              }
+            </script>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4><b>Medical Shop</b></h4>
+          <ul>
+            <li><a target="_blank"
+                  href="https://www.dhani.com/pharmacy/home/home2?utm_source=google&utm_medium=cpc&utm_campaign=SB_Generic_Search_TCPA_Exact_Sept_LowIntent&gclid=EAIaIQobChMIkfzp-aSQ9AIVmAVyCh2ZSQgXEAAYASAAEgI6W_D_BwE">Medicines</a>
+            </li>
+            <li><a target="_blank"
+                  href="https://www.dhani.com/pharmacy/home/home2?utm_source=google&utm_medium=cpc&utm_campaign=SB_Generic_Search_TCPA_Exact_Sept_LowIntent&gclid=EAIaIQobChMIkfzp-aSQ9AIVmAVyCh2ZSQgXEAAYASAAEgI6W_D_BwE">Baby
+                  Products</a></li>
+            <li><a target="_blank"
+                  href="https://www.dhani.com/pharmacy/home/home2?utm_source=google&utm_medium=cpc&utm_campaign=SB_Generic_Search_TCPA_Exact_Sept_LowIntent&gclid=EAIaIQobChMIkfzp-aSQ9AIVmAVyCh2ZSQgXEAAYASAAEgI6W_D_BwE">Skin
+                  Products</a></li>
+            <li><a target="_blank"
+                  href="https://www.dhani.com/pharmacy/home/home2?utm_source=google&utm_medium=cpc&utm_campaign=SB_Generic_Search_TCPA_Exact_Sept_LowIntent&gclid=EAIaIQobChMIkfzp-aSQ9AIVmAVyCh2ZSQgXEAAYASAAEgI6W_D_BwE">Antiseptics</a>
+            </li>
+         </ul>
+        </div>
+        <div class="footer-col">
+          <h4><b>Schedule</b></h4>
+          <ul>
+            <li><a>Mon-Fri : 9:30 to 19:00</a></li>
+            <li><a>Sat : 11:00 to 15:00</a></li>
+            <li><a>Sun : Only emergencies</a></li>
+            <li><a></a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4><b>follow us</b></h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+          <div class="email-footer">
+            <input type="email" placeholder="Enter Your Email">
+            <i class="fas fa-paper-plane"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ======================Footer End======================= -->
+  <!-- ======================Quick Navbar Btn Start======================= -->
+  <div id="quick_navbar_btn">
+    <a href="#for_quick_arrow">
+      <i class="fas fa-chevron-up"></i>
+    </a>
+  </div>
+  <!-- ======================Quick Navbar Btn End======================= -->
+  <!-- ======================Copyright Start======================= -->
+  <div id="copyright">
+    <div class="cr">
+      <h2>
+        &copy; copyright 2021 | All Rights Reserved by &nbsp;<a href="http://google.com">google.com</a>
+      </h2>
+    </div>
+  </div>
+  <!-- ======================Copyright End======================= -->
+
+</body>
+
+</html>

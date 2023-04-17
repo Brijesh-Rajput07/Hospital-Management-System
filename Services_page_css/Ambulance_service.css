@@ -1,0 +1,72 @@
+#Ambulance_services {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial;
+}
+/* The grid: Four equal columns that floats next to each other */
+
+.column {
+    float: left;
+    width: 23%;
+    padding: 10px;
+    /* border: 2px solid red; */
+}
+
+/* Style the images inside the grid */
+
+.column img {
+    opacity: 0.9;
+    cursor: pointer;
+    height: 250px;
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+/* Clear floats after the columns */
+
+/* .row:after {
+    content: "";
+    display: flex;
+} */
+.row{
+    flex-direction: row;
+    clear: both;
+    justify-content: space-evenly;
+
+}
+
+/* The expanding image container */
+
+.container {
+    position: relative;
+    display: none;
+}
+
+/* Expanding image text */
+
+#imgtext {
+    position: absolute;
+    position: relative;
+    bottom: 400px;
+    left: 760px;
+    color: red;
+    font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    background: black;
+    border-radius: 50%;
+    height: 39px;
+    width: 39px;
+    text-align: center;
+    font-size: 35px;
+    cursor: pointer;
+}

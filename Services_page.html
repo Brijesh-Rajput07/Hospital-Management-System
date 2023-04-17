@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- for icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Navbar Start -->
+    <link rel="stylesheet" href="Services_page_css/navbar.css">
+    <!-- Navbar End -->
+    <!-- Swiper link Start -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <!-- Swiper link End -->
+    <!-- landing page css Start -->
+    <link rel="stylesheet" href="Services_page_css/services_page_landing.css">
+    <!-- swiper Start -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- swiper End -->
+    <!-- landing page css End -->
+    <!-- Footer Start -->
+    <link rel="stylesheet" href="Services_page_css/footer.css">
+    <!-- Footer End -->
+    <!-- Quick Navbar Arrow Start -->
+    <link rel="stylesheet" href="Services_page_css/quick_navbar_arrow.css">
+    <!-- Quick Navbar Arrow End -->
+    <!-- Copyright Start -->
+    <link rel="stylesheet" href="Services_page_css/copyright.css">
+    <!-- Copyright End -->
+</head>
+
+<body>
+    <!-- ======================Navigation Menu Start====================== -->
+    <div id="for_quick_arrow"></div>
+    <section class="navbar">
+        <label class="logo">Wel<span style="color: #000;">Care</span></label>
+        <ul>
+            <li><a href="home_page.html">Home</a></li>
+            <li><a href="doctor_page.html">Doctors</a></li>
+            <li>
+                <a href="blog_page.html">Blogs
+                    <i class="fas fa-caret-down"></i>
+                </a>
+                <ul>
+                    <li><a href="blog_page.html">Daily Blogs</a></li>
+                    <li><a href="blog_page.html">Techno. Blog</a></li>
+                    <li><a href="blog_page.html">Achievement</a></li>
+                </ul>
+            </li>
+            <li>
+                <a class="active" href="#">Services
+                    <i class="fas fa-caret-down"></i>
+                </a>
+                <ul>
+                    <li><a href="#">ICU</a></li>
+                    <li>
+                        <a href="#">Emergency
+                            <i class="fas fa-caret-right"></i>
+                        </a>
+                        <ul>
+                            <li><a href="#">Ambulance</a></li>
+                            <li><a href="#">Blood</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="Forms/contact_us_form.html">Contact Us</a></li>
+            <!-- <li><a href="#">Feedback</a></li> -->
+        </ul>
+        <div>
+            <a href="Forms/appointment_form.html" class="button">Appointment</a>
+        </div>
+    </section>
+
+    <!-- ======================Navigation Menu End====================== -->
+    <!-- ======================Services Landing Page Start====================== -->
+    <!-- <div id="dr_landing">
+        <div class="dr_wel">
+            <h2>Meet our qualified Doctors</h2>
+            <ul>
+                <li id="dr_home"><a href="/home_page.html">Home</a></li>
+                <li><i class="fas fa-angle-right"></i></li>
+                <li><a>Services</a></li>
+            </ul>
+        </div>
+    </div> -->
+    <!-- ======================Services Landing Page End====================== -->
+    <!-- ======================Services Landing Page Start====================== -->
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide Slide-1">
+                    <h1>For Emergency ICU</h1><br>
+                    <h2>Contact @<span style="color: #007bff; font-size: 35px; "><i> 1234
+                        56789</i></span></h2>
+                    </div>
+                    <div class="swiper-slide Slide-2">
+                        <!-- <img src="/Services_Page_img/icu_bg_1.jpg" alt=""> -->
+                        <h1>For Emergency Ambulance</h1><br>
+                        <h2>Contact @<span style="color: #007bff; font-size: 35px; "><i> 1234
+                            56789</i></span></h2>
+                        </div>
+                        <div class="swiper-slide Slide-3">
+                            <!-- <img src="/Services_Page_img/Blood_bg_1.jpg" alt=""> -->
+                            <h1>For Emergency Blood</h1><br>
+                            <h2>Contact @<span style="color: #007bff; font-size: 35px; "><i> 1234
+                                56789</i></span></h2>
+                </div>
+                
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <!-- Swiper JS -->
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                spaceBetween: 30,
+                centeredSlides: true,
+                autoplay: {
+                    delay: 2500,
+                    disableOnInteraction: false,
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+            });
+        </script>
+
+
+    <!-- ======================Services Landing Page End====================== -->
+
+    <!-- ======================Footer Start====================== -->
+    <div id="footer">
+        <div class="containerFooter">
+            <div class="row">
+                <div class="footer-col">
+                    <h4><b>Quick links</b></h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="doctor_page.html">Doctors</a></li>
+                        <li><a href="blog_page.html">Achievements</a></li>
+                        <li><a href="#">Services</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4><b>get help</b></h4>
+                    <ul>
+                        <li><a href="Forms/contact_us_form.html">Contact us</a></li>
+                        <li><a href="#" onclick="EmailAlert()">Email</a></li>
+                        <li><a href="#" onclick="AppointmentQuery()">Appointment Query</a></li>
+                        <li><a href="#" onclick="whatsappAlert()">Whatsapp</a></li>
+                        <script>
+                            function whatsappAlert() {
+                                alert("Message Us on +91 9998414xyz");
+                            }
+
+                            function EmailAlert() {
+                                alert("Mail us on brijeshrajput170@gmail.com");
+                            }
+                            function AppointmentQuery() {
+                                alert("Contact us on +91 9998414xyz");
+                            }
+                        </script>
+                        <li><a href="#">payment</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4><b>Medical Shop</b></h4>
+                    <ul>
+                        <li><a target="_blank"
+                              href="https://www.dhani.com/pharmacy/home/home2?utm_source=google&utm_medium=cpc&utm_campaign=SB_Generic_Search_TCPA_Exact_Sept_LowIntent&gclid=EAIaIQobChMIkfzp-aSQ9AIVmAVyCh2ZSQgXEAAYASAAEgI6W_D_BwE">Medicines</a>
+                        </li>
+                        <li><a target="_blank"
+                              href="https://www.dhani.com/pharmacy/home/home2?utm_source=google&utm_medium=cpc&utm_campaign=SB_Generic_Search_TCPA_Exact_Sept_LowIntent&gclid=EAIaIQobChMIkfzp-aSQ9AIVmAVyCh2ZSQgXEAAYASAAEgI6W_D_BwE">Baby
+                              Products</a></li>
+                        <li><a target="_blank"
+                              href="https://www.dhani.com/pharmacy/home/home2?utm_source=google&utm_medium=cpc&utm_campaign=SB_Generic_Search_TCPA_Exact_Sept_LowIntent&gclid=EAIaIQobChMIkfzp-aSQ9AIVmAVyCh2ZSQgXEAAYASAAEgI6W_D_BwE">Skin
+                              Products</a></li>
+                        <li><a target="_blank"
+                              href="https://www.dhani.com/pharmacy/home/home2?utm_source=google&utm_medium=cpc&utm_campaign=SB_Generic_Search_TCPA_Exact_Sept_LowIntent&gclid=EAIaIQobChMIkfzp-aSQ9AIVmAVyCh2ZSQgXEAAYASAAEgI6W_D_BwE">Antiseptics</a>
+                        </li>
+                     </ul>
+                </div>
+                <div class="footer-col">
+                    <h4><b>Schedule</b></h4>
+                    <ul>
+                        <li><a>Mon-Fri : 9:30 to 19:00</a></li>
+                        <li><a>Sat : 11:00 to 15:00</a></li>
+                        <li><a>Sun : Only emergencies</a></li>
+                        <li><a></a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4><b>follow us</b></h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <div class="email-footer">
+                        <input type="email" placeholder="Enter Your Email">
+                        <i class="fas fa-paper-plane"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ======================Footer End======================= -->
+    <!-- ======================Quick Navbar Btn Start======================= -->
+    <div id="quick_navbar_btn">
+        <a href="#for_quick_arrow">
+            <i class="fas fa-chevron-up"></i>
+        </a>
+    </div>
+    <!-- ======================Quick Navbar Btn End======================= -->
+    <!-- ======================Copyright Start======================= -->
+    <div id="copyright">
+        <div class="cr">
+            <h2>
+                &copy; copyright 2021 | All Rights Reserved by &nbsp;<a href="http://google.com">google.com</a>
+            </h2>
+        </div>
+    </div>
+    <!-- ======================Copyright End======================= -->
+</body>
+
+</html>

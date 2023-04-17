@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+/* body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #003e46;
+} */
+
+#doctor {
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px auto;
+    padding: 0px 160px;
+    height: 800px;
+    background: #00649eaf;
+    justify-content: space-between;
+    box-shadow: inset 0px 0px 10px black;
+}
+/* #doctor::before{
+    content: "";
+    position: absolute;
+    top: 1230px;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    background: #00649eaf;
+} */
+#doctor h1{
+    margin: 0px auto;
+    padding: 10px 10px;
+    margin-top: 45px;
+    font-size: 52px;
+    height: 20px;
+
+    text-align: center;
+}
+
+.box {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background-color: #000;
+    box-shadow: 0 30px 30px rgba(0, 0, 0, 0.5);
+}
+
+.box .imgBx {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.box .imgBx img {
+    position: inherit;
+    align-self: start;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.box:hover .imgBx img {
+    opacity: 0;
+}
+
+.box .content {
+    position: absolute;
+    bottom: 20px;
+    left: 10%;
+    width: 80%;
+    height: 60px;
+    background: #fff;
+    overflow: hidden;
+    padding: 15px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.box:hover .content {
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.box .content h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+.box .content p {
+    margin: 10px 0 0;
+    padding: 0;
+    opacity: 0;
+    line-height: 1.2em;
+    transition: 0.5s;
+    text-align: justify;
+}
+
+.box:hover .content p {
+    opacity: 1;
+    transition-delay: 0.5s;
+}
+
+#doctor .box .content button{
+    font-size: 20px;
+    margin: 62% 16%;
+    background: rgb(228, 228, 228);
+    /* box-shadow: 0 0px 30px rgba(0, 0, 0, 0.5); */
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 2px;
+}
+#doctor .box .content button:hover{
+    background: rgb(201, 201, 201);
+}

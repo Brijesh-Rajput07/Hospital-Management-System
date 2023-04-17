@@ -1,0 +1,103 @@
+html, body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper {
+    width: 100%;
+    height: 80%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    display: block;
+}
+.swiper-slide h1 {
+    font-size: 55px;
+    /* border: 2px solid red; */
+    margin-top: 200px;
+    color: white;
+}
+.swiper-slide h2 {
+    font-size: 42px;
+    /* border: 2px solid red; */
+    color: white;
+}
+.swiper-wrapper .Slide-1{
+    background: url(/Services_Page_img/icu_bg_1.jpg)no-repeat center center/cover;
+    position: relative;
+    padding-top: 75px;
+    z-index: -2;
+    background-attachment: fixed;
+}
+
+.Slide-1::before {
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #000000ce;
+    z-index: -1;
+}
+.swiper-wrapper .Slide-2{
+    background: url(/Services_Page_img/emer_ambulance.jpg)no-repeat center center/cover;
+    position: relative;
+    padding-top: 75px;
+    z-index: -2;
+    /* background-attachment: fixed; */
+}
+
+.Slide-2::before {
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #000000bb;
+    z-index: -1;
+}
+.swiper-wrapper .Slide-3{
+    background: url(/Services_Page_img/Blood_bg_1.jpg)no-repeat center center/cover;
+    position: relative;
+    padding-top: 75px;
+    z-index: -2;
+    /* background-attachment: fixed; */
+}
+
+.Slide-3::before {
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #000000ce;
+    z-index: -1;
+}

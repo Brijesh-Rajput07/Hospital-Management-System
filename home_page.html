@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+   <meta charset="utf-8">
+   <title>Hospital Management</title>
+   <!-- Navigation Menu Start -->
+   <link rel="stylesheet" href="home_page_css/navbar.css">
+   <!-- Navigation Menu End -->
+
+   <!-- Medical Services Start -->
+   <link rel="stylesheet" href="home_page_css/services.css">
+   <!-- Medical Services End -->
+
+   <!-- Emergency Help Start -->
+   <link rel="stylesheet" href="home_page_css/emergency-help.css">
+   <!-- Emergency Help End -->
+
+   <!-- Features Start -->
+   <link rel="stylesheet" href="home_page_css/featurs.css">
+   <!-- Features End -->
+
+   <!-- Doctor Information Start -->
+   <link rel="stylesheet" href="home_page_css/doctor.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+   <!-- Doctor Information End -->
+
+   <!-- Counter Start -->
+   <link rel="stylesheet" href="home_page_css/counter.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+   <!-- Counter End -->
+
+   <!-- Footer Start -->
+   <link rel="stylesheet" href="home_page_css/footer.css">
+   <!-- Footer End -->
+   <!-- Quick Navbar Arrow Start -->
+   <link rel="stylesheet" href="home_page_css/quick_navbar_arrow.css">
+   <!-- Quick Navbar Arrow End -->
+   <!-- Copyright Start -->
+   <link rel="stylesheet" href="home_page_css/copyright.css">
+   <!-- Copyright End -->
+</head>
+
+<body>
+   <!-- ======================Navigation Menu Start====================== -->
+   <div id="for_quick_arrow"></div>
+   <section class="navbar">
+      <label class="logo">Wel<span style="color: #000;">Care</span></label>
+      <ul>
+         <li><a class="active" href="#">Home</a></li>
+         <li><a href="doctor_page.html">Doctors</a></li>
+         <li>
+            <a href="blog_page.html">Blogs
+               <i class="fas fa-caret-down"></i>
+            </a>
+            <ul>
+               <li><a href="blog_page.html">Daily Blogs</a></li>
+               <li><a href="blog_page.html">Techno. Blog</a></li>
+               <li><a href="blog_page.html">Achievement</a></li>
+            </ul>
+         </li>
+         <li>
+            <a href="Services_page.html">Services
+               <i class="fas fa-caret-down"></i>
+            </a>
+            <ul>
+               <li><a href="Services_page.html">ICU</a></li>
+               <li>
+                  <a href="#">Emergency
+                     <i class="fas fa-caret-right"></i>
+                  </a>
+                  <ul>
+                     <li><a href="Services_page.html">Ambulance</a></li>
+                     <li><a href="Services_page.html">Blood</a></li>
+                  </ul>
+               </li>
+            </ul>
+         </li>
+         <li><a href="Forms/contact_us_form.html">Contact Us</a></li>
+         <!-- <li><a href="#">Feedback</a></li> -->
+      </ul>
+      <div>
+         <a href="Forms/appointment_form.html" class="button">Appointment</a>
+      </div>
+   </section>
+
+   <!-- ======================Navigation Menu End====================== -->
+
+   <!-- ======================Landing Page Start====================== -->
+   <div class="landing">
+      <div class="landingText" data-aos="fade-up" data-aos-duration="1000">
+         <h1>We provide<span style="color:#007bff;font-size: 55px"> Medical </span>Services<br></h1>
+         <h2>that you can<span style="color:#007bff;font-size: 38px"><i> trust</i></span></h2>
+         <h3>Lets all work together to put an end to this pandemic. <br> Help stop the spread.</h3>
+         <!-- <div class="btn">
+            <a href="#">Learn More</a>
+         </div> -->
+      </div>
+   </div>
+   <!-- ======================Landing Page End====================== -->
+
+   <!-- ======================Medical Services Start====================== -->
+   <div class="container">
+
+      <div class="box1">
+         <div class="icon">
+            <i class="fas fa-user-md"></i>
+         </div>
+         <div class="content">
+            <h3>Doctor</h3>
+            <p>We provide the best doctors & services that you can trust</p>
+            <button class="M_S-button1"><a href="doctor_page.html">Click Here</a></button>
+         </div>
+
+      </div>
+      <div class="box1">
+         <div class="icon">
+            <i class="fas fa-address-book"></i>
+         </div>
+         <div class="content">
+            <h3>Appointment</h3>
+            <p>Get your appointments booked straight-away from your home</p>
+            <button class="M_S-button1"><a href="Forms/appointment_form.html">Click Here</a></button>
+         </div>
+      </div>
+      <div class="box1">
+         <div class="icon">
+            <i class="fas fa-star"></i>
+         </div>
+         <div class="content">
+            <h3>Feedback</h3>
+            <p>Get to know the reviews of patient & doctors working here</p>
+            <button class="M_S-button1"><a href="Forms/contact_us_form.html">Click Here</a></button>
+         </div>
+      </div>
+   </div>
+   <!-- ======================Medical Services End====================== -->
+   <!-- ======================Emergency Help Start====================== -->
+   <div id="Emergency-Help">
+      <div class="EH">
+         <div class="EH-top">
+            <h2>For emergency medical care,<br> Contact @<span style="color: #007bff; font-size: 35px; "><i> 1234
+                     56789</i></span></h2>
+         </div>
+         <div class="EH-mid">
+            <!-- <i class="fas fa-quote-left"></i> -->
+            <h2>The best services are there for you <span style="color: #007bff; font-size: 30px; ">24*7</span></h2>
+         </div>
+         <!-- <div class="EH-btn">
+            <div class="EH-btns">
+               <a href="#">Contact Now</a>
+            </div>
+         </div> -->
+      </div>
+   </div>
+   <!-- ======================Emergency Help End====================== -->
+   <!-- ====================== Start Featues ====================== -->
+   <div id="features">
+      <div class="features-top">
+         <h2>We are always ready to help <span style="color: #007bff;">you</span> &<br><span
+               style="color: #007bff;">your
+               family</span></h2>
+         <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, quis.</p> -->
+      </div>
+      <div class="Heart-icon">
+         <img src="img/beat.png" alt="">
+      </div>
+      <h5 id="F-dote1">.............................</h5>
+      <h5 id="F-dote2">.............................</h5>
+      <div class="features-bottom">
+         <div class="feature-box">
+            <div class="icon">
+               <i class="fas fa-ambulance"></i>
+            </div>
+            <!-- icofont -->
+            <h2>Emergency Help</h2>
+            <p>The best services are there for you 24*7</p>
+         </div>
+         <div class="feature-box">
+            <div class="icon">
+               <!-- <i class="fas fa-first-aid"></i> -->
+               <i class="fas fa-notes-medical"></i>
+            </div>
+            <h2>Enriched Pharmacy</h2>
+            <p>Get the prescribed medicines at the best rates & enriched for you!</p>
+         </div>
+         <div class="feature-box">
+            <div class="icon">
+               <i class="fas fa-stethoscope"></i>
+            </div>
+            <h2>Medical Treatment</h2>
+            <p>We provide treatments for both major & minor diseases!</p>
+         </div>
+      </div>
+   </div>
+   <!--/ ====================== End Featues ====================== -->
+
+   <!-- ======================counter Start====================== -->
+   <div id="counter">
+      <div class="counter-up">
+         <div class="content">
+            <div class="boxCounter">
+               <div class="iconCounter"><i class="fas fa-procedures"></i></div>
+               <div class="info">
+                  <p><span class="counter">724</span></p>
+                  <div class="text">Hospital Rooms</div>
+               </div>
+            </div>
+            <div class="boxCounter">
+               <div class="iconCounter"><i class="fas fa-user-md"></i></div>
+               <div class="info">
+                  <p><span class="counter">508</span></p>
+                  <div class="text">Specialist Doctors</div>
+               </div>
+            </div>
+            <div class="boxCounter">
+               <div class="iconCounter"><i class="fas fa-users"></i></div>
+               <div class="info">
+                  <p><span class="counter">436</span></p>
+                  <div class="text">Happy Patients</div>
+               </div>
+            </div>
+            <div class="boxCounter">
+               <div class="iconCounter"><i class="fas fa-trophy"></i></div>
+               <div class="info">
+                  <p><span class="counter">120</span></p>
+                  <div class="text">Our Achievements</div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <script>
+         $(function () {
+            $(".counter").counterUp({
+               delay: 10,
+               time: 1200
+            });
+         });
+      </script>
+   </div>
+   <!-- ======================counter End====================== -->
+   <!-- ======================Footer Start====================== -->
+   <div id="footer">
+      <div class="containerFooter">
+         <div class="row">
+            <div class="footer-col">
+               <h4><b>Quick links</b></h4>
+               <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="doctor_page.html">Doctors</a></li>
+                  <li><a href="blog_page.html">Achievements</a></li>
+                  <li><a href="Services_page.html">Services</a></li>
+               </ul>
+            </div>
+            <div class="footer-col">
+               <h4><b>get help</b></h4>
+               <ul>
+                  <li><a href="Forms/contact_us_form.html">Contact us</a></li>
+                  <li><a href="#" onclick="EmailAlert()">Email</a></li>
+                  <li><a href="#" onclick="AppointmentQuery()">Appointment Query</a></li>
+                  <li><a href="#" onclick="whatsappAlert()">Whatsapp</a></li>
+                  <script>
+                     function whatsappAlert() {
+                        alert("Message Us on +91 9408279xxx");
+                     }
+
+                     function EmailAlert() {
+                        alert("Mail us on rajputbrijesh170@gmail.com");
+                     }
+
+                     function AppointmentQuery() {
+                        alert("Contact us on +91 9408279xxx");
+                     }
+                  </script>
+               </ul>
+            </div>
+            <div class="footer-col">
+               <h4><b>Medical Shop</b></h4>
+               <ul>
+                  <li><a target="_blank"
+                        href="https://www.dhani.com/pharmacy/home/home2?utm_source=google&utm_medium=cpc&utm_campaign=SB_Generic_Search_TCPA_Exact_Sept_LowIntent&gclid=EAIaIQobChMIkfzp-aSQ9AIVmAVyCh2ZSQgXEAAYASAAEgI6W_D_BwE">Medicines</a>
+                  </li>
+                  <li><a target="_blank"
+                        href="https://www.dhani.com/pharmacy/home/home2?utm_source=google&utm_medium=cpc&utm_campaign=SB_Generic_Search_TCPA_Exact_Sept_LowIntent&gclid=EAIaIQobChMIkfzp-aSQ9AIVmAVyCh2ZSQgXEAAYASAAEgI6W_D_BwE">Baby
+                        Products</a></li>
+                  <li><a target="_blank"
+                        href="https://www.dhani.com/pharmacy/home/home2?utm_source=google&utm_medium=cpc&utm_campaign=SB_Generic_Search_TCPA_Exact_Sept_LowIntent&gclid=EAIaIQobChMIkfzp-aSQ9AIVmAVyCh2ZSQgXEAAYASAAEgI6W_D_BwE">Skin
+                        Products</a></li>
+                  <li><a target="_blank"
+                        href="https://www.dhani.com/pharmacy/home/home2?utm_source=google&utm_medium=cpc&utm_campaign=SB_Generic_Search_TCPA_Exact_Sept_LowIntent&gclid=EAIaIQobChMIkfzp-aSQ9AIVmAVyCh2ZSQgXEAAYASAAEgI6W_D_BwE">Antiseptics</a>
+                  </li>
+               </ul>
+            </div>
+            <div class="footer-col">
+               <h4><b>Schedule</b></h4>
+               <ul>
+                  <li><a>Mon-Fri : 9:30 to 19:00</a></li>
+                  <li><a>Sat : 11:00 to 15:00</a></li>
+                  <li><a>Sun : Only emergencies</a></li>
+                  <li><a></a></li>
+               </ul>
+            </div>
+            <div class="footer-col">
+               <h4><b>follow us</b></h4>
+               <div class="social-links">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+               </div>
+               <div class="email-footer">
+                  <input type="email" placeholder="Enter Your Email">
+                  <i class="fas fa-paper-plane"></i>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- ======================Footer End======================= -->
+   <!-- ======================Quick Navbar Btn Start======================= -->
+   <div id="quick_navbar_btn">
+      <a href="#for_quick_arrow">
+         <i class="fas fa-chevron-up"></i>
+      </a>
+   </div>
+   <!-- ======================Quick Navbar Btn End======================= -->
+   <!-- ======================Copyright Start======================= -->
+   <div id="copyright">
+      <div class="cr">
+         <h2>
+            &copy; Copyright 2023 | All Rights Reserved By Brijesh Rajput</a>
+         </h2>
+      </div>
+   </div>
+   <!-- ======================Copyright End======================= -->
+
+
+</body>
+
+</html>
