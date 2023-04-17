@@ -1,6 +1,5 @@
-# Project Name
-
 Doctor Consultancy Management System
+
 
 Our website is basically about a particular hospital, from getting the information about the hospital to booking an appointment & getting prescribed (online/offline). We are also generating files of patients who have visited/are visiting the hospital before & have overcome a disease. We have also provided a link for a medical shop just in-case if the patient needs them, he/she can order it online.
 
