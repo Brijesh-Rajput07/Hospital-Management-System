@@ -4,6 +4,8 @@
 - [Description](#description)
 - [Requirements](#requirements)
 - [Installation](#installation)
+- [ScreenShot of System](#screenshot)
+
 <!-- - [Usage](#usage)
  -->
 ## Project Description
@@ -31,3 +33,8 @@ Following are the software requirements to build this website.
 1. First you need to install any IDE like Vs Code
 2. Now run Home Page file wich is html file so run locally using open with live server
 3. Now project is run out on local host
+
+## Screenshot of System
+![image](https://user-images.githubusercontent.com/130851830/232462155-997e6fd0-976e-4965-aca0-07852be6e32c.png)
+![image](https://user-images.githubusercontent.com/130851830/232462297-6d7b2834-76cd-4528-acd4-0fe9d01b4b98.png)
+
